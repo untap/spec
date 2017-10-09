@@ -7,7 +7,7 @@ var formatAsSpec = require('../')
 var stream = process.stdin
 
 if (process.argv[2]) {
-  stream = fs.createReadStream(process[argv[2]))
+  stream = fs.createReadStream(process[argv[2])
 }
 
 var input$ = parser.observeStream(stream)
